@@ -1,0 +1,46 @@
+name: app_scope_inspector
+description: AppScope - Inspector by Evolix Technologies
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.1+2
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.10+1
+  provider: ^6.1.2
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+          weight: 400
+
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
+
+        - asset: assets/fonts/Inter-ExtraBold.ttf
+          weight: 800
+
+
