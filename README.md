@@ -45,3 +45,11 @@ This archive intentionally contains the application source rather than generated
 Create or use an existing Flutter project, copy `lib/`, `assets/`, and the dependency entries from this `pubspec.yaml`, then run your normal Flutter commands manually.
 
 See `AGENT.md` for project-wide coding rules.
+
+
+Release Mobile App
+
+```
+flutter build apk --release --obfuscate --split-debug-info=build/debug-info --tree-shake-icons
+flutter build appbundle --release --obfuscate --split-debug-info=build/debug-info --tree-shake-icons
+```
